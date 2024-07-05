@@ -1,0 +1,60 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 1em;
+    min-width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 1em 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 0.5em 0;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+    padding-left: 10px;
+    transition: padding-left 0.2s;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 2em;
+    flex: 1;
+  }
+  
+  .blog {
+    background-color: #fff;
+    padding: 2em;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
